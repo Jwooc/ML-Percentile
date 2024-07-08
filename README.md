@@ -22,6 +22,7 @@ where _P_ is _the percentile_, _N_ is _the number of data points_ in that datase
 
 `Note:` _The median_ is also known as _the 50th percentile_
 
+_Code example_
 
     import numpy as np
     data = [50,30,20,60.73,88,44,22,67,10]
