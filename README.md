@@ -8,6 +8,10 @@ The nth percentile describe the percentage of data below that percentile.
 
 - For example, if in a class of 20 students, we find that the 25th percentile age is 20 years, it means that 25% of the students (in this case, 5 students) are below 20 years.
 
+_Calculate the nth percentile_
+
+The formula to manually obtain the _nth_ percentile is:
+
 _n = (P / 100) * N_
 
 where _P_ is _the percentile_, _N_ is _the number of data points_ in that dataset, and _n_ is _the number of data points_.
