@@ -10,13 +10,13 @@ The nth percentile describe the percentage of data below that percentile.
 
 _n = (P / 100) * N_
 
-where _P_ is the percentile, _N_ is the number of data points in that dataset, and _n_ is the number of data points.
+where _P_ is _the percentile_, _N_ is _the number of data points_ in that dataset, and _n_ is _the number of data points_.
 
 - For example, we have 10 marks in an exam, [50, 30, 20, 60, 73, 88, 44, 22, 67, 10], in order to obtain the _50_ th _percentile_:
-    - Obtain _n_ using the formula, _50/100*10=5_. This means that the _50_ th percentile is located in the _5_ th position in that dataset.
+    - Obtain _n_ using the formula, _50/100*10=5_. This means that the _50_ th _percentile_ is located in the _5_ th position in that dataset.
     - Order the dataset from the smallest to the largest. [10, 20, 22, 30, 44, 50, 60, 67, 73, 88], the _5_ th number is _44_. This means that _50_% of the students scored below _44_ marks.
 
-`Note:` The _median_ is also known as the _50_ th percentile
+`Note:` _The median_ is also known as _the 50th percentile_
 
 
     import numpy as np
