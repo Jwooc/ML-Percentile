@@ -12,11 +12,11 @@ _n = (P / 100) * N_
 
 where _P_ is the percentile, _N_ is the number of data points in that dataset, and _n_ is the number of data points.
 
-- For example, we have 10 marks in an exam, [50, 30, 20, 60, 73, 88, 44, 22, 67, 10], in order to obtain the 50th percentile:
-    - Obtain n using the formula, 50/100*10=5. This means that the 50th percentile is located in the 5th position in that dataset.
-    - Order the dataset from the smallest to the largest. [10,20,22,30,44,50,60,67,73,88], the 5th number is 44. This means that 50% of the students scored below 44 marks.
+- For example, we have 10 marks in an exam, [50, 30, 20, 60, 73, 88, 44, 22, 67, 10], in order to obtain the _50_ th _percentile_:
+    - Obtain n using the formula, _50/100*10=5_. This means that the 50th percentile is located in the _5_ th position in that dataset.
+    - Order the dataset from the smallest to the largest. [10, 20, 22, 30, 44, 50, 60, 67, 73, 88], the _5_ th number is _44_. This means that _50_% of the students scored below _44_ marks.
 
-`Note:` The median is also known as the 50th percentile
+`Note:` The _median_ is also known as the _50_ th percentile
 
 
     import numpy as np
